@@ -1,1 +1,52 @@
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: pink; /* Set the background color to pink */
+    color: white; /* Set the default text color to white */
+}
 
+/* Header styles */
+header {
+    background-color: black; /* Set the header background color to black */
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white; /* Set the navigation link color to white */
+    text-decoration: none;
+}
+
+/* Section styles */
+section {
+    padding: 50px;
+}
+
+h2 {
+    margin-top: 0;
+}
+
+/* Footer styles */
+footer {
+    background-color: black; /* Set the footer background color to black */
+    color: white; /* Set the footer text color to white */
+    text-align: center;
+    padding: 10px;
+}
