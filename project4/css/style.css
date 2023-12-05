@@ -3,19 +3,21 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: pink; /* Set the background color to pink */
-    color: white; /* Set the default text color to white */
+    background-color: #fce3e3; /* Light pastel pink background */
+    color: black; /* Set the default text color to black */
 }
 
 /* Header styles */
 header {
     background-color: black; /* Set the header background color to black */
+    color: #fce3e3; /* Text color in the header */
     padding: 20px;
     text-align: center;
 }
 
 h1 {
     margin: 0;
+    font-size: 36px;
 }
 
 nav ul {
@@ -30,7 +32,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: white; /* Set the navigation link color to white */
+    color: #fce3e3; /* Navigation link color */
     text-decoration: none;
 }
 
@@ -41,12 +43,22 @@ section {
 
 h2 {
     margin-top: 0;
+    font-size: 24px;
+    color: black; /* Heading color */
+}
+
+.model {
+    background-color: #ffffff; /* White background for model sections */
+}
+
+.brand {
+    background-color: #fce3e3; /* Light pastel pink background for brand sections */
 }
 
 /* Footer styles */
 footer {
     background-color: black; /* Set the footer background color to black */
-    color: white; /* Set the footer text color to white */
+    color: #fce3e3; /* Footer text color */
     text-align: center;
     padding: 10px;
 }
